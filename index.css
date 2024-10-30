@@ -28,7 +28,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex; /* Coloca los elementos uno al lado del otro */
-    justify-content: left;
+    justify-content: center;
     padding: 0px;
     margin: 20px;
 }
