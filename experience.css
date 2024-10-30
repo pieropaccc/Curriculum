@@ -1,0 +1,86 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+}
+
+/* Estilo para el nav */
+nav {
+    background-color: #000; /* Fondo negro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaciado entre los elementos */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none;
+    padding: 10px 15px; /* Espaciado interno */
+    border: 1px solid transparent; /* Borde inicial */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+}
+
+nav ul li a:hover {
+    background-color: #686c6d; /* Fondo azul claro al pasar el ratón */
+    border-color: #fff; /* Cambiar borde a blanco al pasar el ratón */
+}
+
+/* Estilo para el h1 */
+h1 {
+    text-align: center; /* Centrar texto */
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes semi-redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para los divs de experiencia */
+div {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes semi-redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 15px; /* Espaciado interno */
+    margin: 20px auto; /* Margen automático para centrar */
+    max-width: 800px; /* Ancho máximo */
+}
+
+/* Estilos para los h2 y h3 */
+h2 {
+    color: #282c34; /* Color del texto */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+h3 {
+    color: #888; /* Color gris para el subtítulo */
+    margin: 10px 0; /* Margen arriba y abajo */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: disc; /* Tipo de viñetas */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    padding: 10px 0; /* Espaciado interno */
+    position: relative; /* Posición relativa */
+    bottom: 0; /* Mantener en la parte inferior */
+    width: 100%; /* Ancho completo */
+}

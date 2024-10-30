@@ -1,0 +1,93 @@
+/* contact.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8b8b8b; /* Color on hover */
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #555;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left; /* Left-aligning paragraphs */
+    margin: 10px 0;
+}
+
+/* Container styles for contact details */
+.contact-container {
+    background-color: white; /* White background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 10px; /* Semi-rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin: 20px auto; /* Centering the container */
+    max-width: 600px; /* Max width for better readability */
+}
+
+/* Link styles */
+a {
+    color: #0073e6; /* Default link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* LinkedIn icon styles */
+img {
+    display: block;
+    margin: 0px ; /* Centering the icon */
+}
