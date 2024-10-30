@@ -1,40 +1,42 @@
 /* contact.css */
 
-/* General styles */
+/* Estilos globales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    padding: 0;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
 }
 
-/* Navigation styles */
+/* Estilo para el nav */
 nav {
-    background-color: #333;
+    background-color: #000; /* Fondo negro */
     padding: 10px 0;
-    text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centra los elementos */
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 15px; /* Espaciado entre los elementos */
 }
 
 nav ul li a {
-    color: #fff;
+    color: #fff; /* Color del texto blanco */
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
+    padding: 10px 15px; /* Espaciado interno */
+    border: 1px solid transparent; /* Borde inicial */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
 }
 
 nav ul li a:hover {
-    color: #8b8b8b; /* Color on hover */
+    background-color: #686c6d; /* Fondo azul claro al pasar el ratón */
+    border-color: #fff; /* Cambiar borde a blanco al pasar el ratón */
 }
 
 /* Heading styles */
