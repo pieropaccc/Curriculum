@@ -116,11 +116,21 @@ h2 {
 .heading-container {
     background-color: white; /* Color de fondo blanco */
     border-radius: 10px; /* Bordes semi-redondeados */
-    padding: 5px 300px; /* Espacio interno alrededor del h1 */
+    padding: 10px 5%; /* Espacio interno alrededor del h1, usando porcentaje */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    text-align: right; /* Centrar el texto dentro del div */
-    margin: 30px; /* Espacio externo alrededor del contenedor */
+    text-align: center; /* Centrar el texto dentro del div */
+    margin: 30px auto; /* Centrar el contenedor */
+    max-width: 800px; /* Ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
 }
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .heading-container {
+        padding: 10px 15px; /* Aumentar el padding en pantallas pequeñas */
+        margin: 20px 10px; /* Ajustar el margen para pantallas pequeñas */
+    }
+}
+
 
 .footer {
     background-color: black; /* Color de fondo negro */
